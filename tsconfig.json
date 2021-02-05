@@ -24,7 +24,8 @@
     "**/*.tsx",
     "pages/components/Editor",
     "pages/components/Join",
-    "pages/components/Chat"
+    "pages/components/Chat",
+    "pages/App.js"
   ],
   "exclude": [
     "node_modules"
