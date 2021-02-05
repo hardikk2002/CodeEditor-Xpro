@@ -1,0 +1,92 @@
+.noteContainer{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+   
+}
+  .note {
+    background: #2979ff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    float: left;
+    transition: .5s ease-in-out;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+
+   
+  }
+  .note h1 {
+    
+    font-size: 1.4em;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .note p {
+     
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color:  #2979ff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  form.createNote {
+    
+    position: relative;
+    width: 80%;
+    margin: 30px auto 20px auto;
+    background:#ffffff;
+    padding: 15px 15px 10px 15px;
+    border-radius: 15px;
+
+  }
+
+
+  form.createNote input,
+  form.createNote textarea {
+    color: black;  
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: inherit;
+    resize: none;
+  }
+  form.createNote button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #2979ff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    
+    cursor: pointer;
+    outline: none;
+
+    &:hover{
+        background: #0247c0;
+    }
+  }
+  

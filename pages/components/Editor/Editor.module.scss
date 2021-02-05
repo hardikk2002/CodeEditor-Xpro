@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+.editorContainer{
+    height: 51vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0); 
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
+    .wrapper{
+        height: 100% !important;
+        width: 100% !important;
+        box-shadow:  0px 2px 5px rgb(6, 255, 234);
+        transition: .2s linear; 
+        border-radius: 10%;
+        margin-top: -10px;
+        // min-width: 100px;
+        // min-height: 100px;
+        // max-width: 680px;
+        // max-height: 450px;
+        // resize: both;
+        
+        &:hover{
+            
+            box-shadow:  0px 3px 10px rgb(6, 255, 234);
+        }
+
+    }
+  
+    .coloumnTitle{
+        font-size: 1.2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000; 
+        /* // hsl(225, 6%, 13%) */
+        color: antiquewhite;
+        font-weight: 700;
+        height: 50px;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+
+    
+    }
+
+
+    .codeMirrorWrapper{
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+        border-bottom-left-radius: 20% !important;
+        border-bottom-right-radius: 20% !important;
+        font-weight: none !important;
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu Mono', monospace !important;
+        overflow: hidden;
+
+      }
+
+
+      .CodeMirror{
+          height: 100% !important;
+      }
+    // .codeMirrorWrapper{
+    //     flex-grow: 1;
+    //     border-bottom-left-radius: 20px;
+    //     border-bottom-right-radius: 20px;
+    //     overflow: hidden;
+    // }
+
+}
+

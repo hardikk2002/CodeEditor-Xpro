@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.messageBox {
+    background: #F3F3F3;
+    border-radius: 30px 30px 30px 0;
+    padding: 15px 15px 0px 15px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+
+  }
+  
+  .messageText {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    letter-spacing: 0px;
+    float: left;
+    font-size: 1rem;
+    font-weight:400;
+    
+  }
+  
+  .messageText img {
+    vertical-align: middle;
+  }
+  
+  .messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+  
+  .sentText {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    color: #949494;
+    letter-spacing: 0.8px;
+  }
+  
+  .pl10 {
+    padding-left: 10px;
+  }
+  
+  .pr10 {
+    padding-right: 10px;
+  }
+  
+  .justifyStart {
+    justify-content: flex-start;
+  }
+  
+  .justifyEnd {
+    justify-content: flex-end;
+  }
+  
+  .colorWhite {
+    color: white;
+  }
+  
+  .colorDark {
+    color: #353535;
+  }
+  
+  .backgroundBlue {
+    background: #2979FF;
+    border-radius:  30px;
+  }
+  
+  .backgroundLight {
+    background: #F3F3F3;
+  }
+  

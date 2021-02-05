@@ -1,0 +1,57 @@
+
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: #1a1a1d;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  }
+  
+  .joinInnerContainer {
+    width: 80%;
+    
+  }
+  
+  .joinInput {
+    color: black;
+    
+    font-size: 1.1rem;
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+  }
+  
+  .button {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 15px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+      &:focus {
+        outline: 0;
+      }
+  }
+  
+  .mt20 {
+    margin-top: 20px;
+  }
+ 
+  

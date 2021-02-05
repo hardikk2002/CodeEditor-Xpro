@@ -1,0 +1,22 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1A1A1D;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    color: aliceblue;
+    border-radius: 8px;
+    height: 78vh;
+    width: 100%;
+    box-shadow:  0px 0px 5px rgb(6, 176, 255);
+  
+  }
+  

@@ -1,0 +1,135 @@
+.mainContainer{
+   padding: 0% 3%;
+   background-color: #0e1218; 
+   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
+}
+
+.sidePanel{
+   padding: 0;
+   height: 70vh;
+   background-color: #0e1218;
+}
+
+
+   .mainContent{
+    height: 90vh !important;
+
+   }
+   .leftPanel{
+
+    color:rgb(255, 251, 247); 
+    background-color: #0e1218; 
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
+    .editorName{
+      padding: 2% 3%;
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+   }
+   .rightPanel{
+      height: 90vh;
+      
+   }
+
+   // .react-tabs__tab-list{
+   //    border-bottom: 0px !important;
+   // }
+   // .react-tabs__tab--selected {
+   //    background: rgb(57, 96, 133) !important;
+   //    border-color: #aaa;
+   //    color: rgb(248, 1, 1);
+   //    border-radius: 5px 5px 0 0;
+   //  }
+
+
+   //  .react-tabs{
+   //    &__tab-list {
+   //       border-bottom: 0px !important;
+ 
+   //     }
+   //  }
+
+
+   .code{
+      height: 100% !important;
+   }
+
+
+   .leftfooter{
+      height: 33vh;
+      color: rgb(255, 251, 247);
+      padding: 2% 3%;
+
+      .footerContent{
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+         line-height: 3rem;
+
+h1{
+   font-size: 2rem;
+   color: rgb(247, 247, 247);
+   font-weight: bolder;
+}
+         p{
+            width: 70%;
+            text-align: center;
+            line-height: 1.6rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: rgb(201, 201, 201);
+            
+
+         }
+
+      .bottom{
+         
+         Button {
+            outline:none;
+            height: 38px;
+            margin-top: 10px;
+            text-align: center;
+            width: 120px;
+            border-radius:40px;
+            background-color: #0e1218; 
+            background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+        
+            border: 1.8px solid #00fff7cb;
+            color:#00fff7f1;
+            letter-spacing:1px;
+            text-shadow:0;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-weight: 700;
+            font-size: 15px;
+   
+            &:hover {
+              box-shadow:  0px 0px 10px rgb(6, 255, 234);
+              transform: scale(1.1);
+            }
+            &:active {
+              letter-spacing: 2px ;
+            }
+   
+          }
+         
+      }
+      
+
+   }
+}
+
+
+ 
+
+ 
+
+
+// node_module > codemirror > lib > codemirror.css > .CodeMirror{}
+
+
+
+
