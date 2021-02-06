@@ -5,8 +5,8 @@ import Messages from '../Messages/Messages';
 import styles from "./Chat.module.scss";
 import io from "socket.io-client";
 
-// const ENDPOINT = 'https://xpro-chatapp.herokuapp.com/';
-const ENDPOINT = 'localhost:4000';
+const ENDPOINT = 'https://xpro-chatapp.herokuapp.com/';
+// const ENDPOINT = 'localhost:4000';
 let socket;
 
 var connectionOptions = {
