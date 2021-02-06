@@ -7,10 +7,7 @@ function Messages({ messages, name }) {
     return (
         <ScrollToBottom className={styles.messages} >
             {messages.map((message, i) =>
-
-
                 <div key={i}>
-
                     <Message message={message} name={name} />
                 </div>)}
         </ScrollToBottom>
