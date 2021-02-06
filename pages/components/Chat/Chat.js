@@ -5,7 +5,8 @@ import Messages from '../Messages/Messages';
 import styles from "./Chat.module.scss";
 import io from "socket.io-client";
 
-const ENDPOINT = 'https://xpro-chatapp.herokuapp.com/';
+// const ENDPOINT = 'https://xpro-chatapp.herokuapp.com/';
+const ENDPOINT = 'localhost:4000';
 let socket;
 
 var connectionOptions = {
@@ -42,13 +43,12 @@ function Chat({ _name, _room }) {
 
     useEffect(() => {
         socket.on('message', message => {
-            console.log("Comming");
+            // console.log("Comming");
             setMessages(messages => [...messages, message]);
 
         });
 
         socket.on("roomData", ({ users }) => {
-            console.log("xam")
             setUsers(users);
         });
     }, []);

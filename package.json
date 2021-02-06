@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "[my-framework] build --output public"
+    "build": "next build"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",

@@ -26,7 +26,8 @@
     "pages/components/Join",
     "pages/components/Chat",
     "pages/App.js",
-    "pages/components/Messages/Message/Message.js"
+    "pages/components/Messages/Message/Message.js",
+    "pages/components/Messages/Messages.js"
   ],
   "exclude": [
     "node_modules"

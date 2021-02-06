@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactEmoji from 'react-emoji';
-
 import styles from './Message.module.scss'
 
 function Message({ message: { text, user }, name }) {
