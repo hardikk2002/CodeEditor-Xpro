@@ -6,14 +6,15 @@ import styles from './Messages.module.scss';
 function Messages({ messages, name }) {
     return (
         <ScrollToBottom className={styles.messages} >
-            {messages.map((message, i) =>
-                <div key={i}>
-
-                    <Message message={message} name={name} />
-                    {/* {!!message ? message : { text: "Check", user: "NAMe" }}  */}
-
-
-                </div>)}
+            {messages
+                ? messages.map((message, i) =>
+                    message && (
+                        <div key={i}>
+                            <Message message={message} name={name} />
+                        </div>
+                    )
+                )
+                : null}
         </ScrollToBottom>
     )
 }
