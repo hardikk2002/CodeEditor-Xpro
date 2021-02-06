@@ -9,7 +9,6 @@ function Messages({ messages, name }) {
             {messages.map((message, i) =>
 
                 <div key={i}>
-                    {console.log(message)}
                     <Message message={message} name={name} />
                 </div>)}
         </ScrollToBottom>

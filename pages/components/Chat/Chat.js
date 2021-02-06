@@ -44,7 +44,7 @@ function Chat({ _name, _room }) {
         socket.on('message', message => {
             console.log("Comming");
             setMessages(messages => [...messages, message]);
-            console.log(messages);
+
         });
 
         socket.on("roomData", ({ users }) => {
