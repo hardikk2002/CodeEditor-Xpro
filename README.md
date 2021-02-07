@@ -1,22 +1,46 @@
+## Xpro: A Next-Generation Code Editor
+
+
+![Untitled design (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612726537389/wPa9wqj5W.png)
+
+
+✖️pro is a new and customizable online Code Editor. It is a “playground for the front-end designers and developers". It is great for testing out bugs, making notes, and collaborating with others.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
+```
+bash
 npm run dev
 # or
 yarn dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To run server Chat server locally.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+cd server/
+npm start
+
+``` 
+- And then go to the chat.tsx file and uncomment the 
+
+```
+server = io.connect('localhost:4000')
+
+``` 
+
+ [LiveDemo](https://code-editor-xpro.vercel.app/) 
+
+
 
 ## Learn More
 
