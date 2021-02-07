@@ -8,6 +8,9 @@ export default function Home() {
       <Head>
         <title>Code Editor - Xpro</title>
         <link rel="icon" href="/fav.ico" />
+        <meta name="description" content="A Next-Generation Code Editor" />
+        <meta name="keywords" content="Nextjs Typescript CodeEditor Socketio SCSS" />
+        <meta name="author" content="Hardik Kaushik" />
       </Head>
 
       <main className={styles.main}>

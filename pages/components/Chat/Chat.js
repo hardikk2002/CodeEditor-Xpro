@@ -30,7 +30,6 @@ function Chat({ _name, _room }) {
     useEffect(() => {
 
         socket = io(ENDPOINT, connectionOptions);
-
         setRoom(_room);
         setName(_name)
 
