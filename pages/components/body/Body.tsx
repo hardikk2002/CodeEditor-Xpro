@@ -7,7 +7,8 @@ import 'react-tabs/style/react-tabs.css';
 import Editor from '../Editor/Editor';
 
 import styles from './Body.module.scss';
-import "antd/dist/antd.dark.min.css";
+import "antd/dist/antd.dark.css";
+
 import Join from '../Join/Join';
 import Notes from '../Notes/Notes';
 

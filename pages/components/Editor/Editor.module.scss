@@ -3,22 +3,15 @@
 .editorContainer{
     height: 51vh;
     width: 100%;
-    background-color: rgb(0, 0, 0); 
-    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 
     .wrapper{
-        height: 100% !important;
-        width: 100% !important;
+        height: 100%;
+        width: 100%;
         box-shadow:  0px 2px 5px rgb(6, 255, 234);
         transition: .2s linear; 
         border-radius: 10%;
         margin-top: -10px;
-        // min-width: 100px;
-        // min-height: 100px;
-        // max-width: 680px;
-        // max-height: 450px;
-        // resize: both;
-        
+  
         &:hover{
             
             box-shadow:  0px 3px 10px rgb(6, 255, 234);
@@ -57,17 +50,6 @@
         overflow: hidden;
 
       }
-
-
-      .CodeMirror{
-          height: 100% !important;
-      }
-    // .codeMirrorWrapper{
-    //     flex-grow: 1;
-    //     border-bottom-left-radius: 20px;
-    //     border-bottom-right-radius: 20px;
-    //     overflow: hidden;
-    // }
 
 }
 

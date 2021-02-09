@@ -1,26 +1,24 @@
 .mainContainer{
    padding: 0% 3%;
-   background-color: #0e1218; 
-   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 
 }
 
 .sidePanel{
    padding: 0;
    height: 70vh;
-   background-color: #0e1218;
+   
 }
 
 
    .mainContent{
     height: 90vh !important;
-
+    background-color: #000000; 
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+ 
    }
    .leftPanel{
 
     color:rgb(255, 251, 247); 
-    background-color: #0e1218; 
-    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 
     .editorName{
       padding: 2% 3%;
@@ -34,23 +32,6 @@
       
    }
 
-   // .react-tabs__tab-list{
-   //    border-bottom: 0px !important;
-   // }
-   // .react-tabs__tab--selected {
-   //    background: rgb(57, 96, 133) !important;
-   //    border-color: #aaa;
-   //    color: rgb(248, 1, 1);
-   //    border-radius: 5px 5px 0 0;
-   //  }
-
-
-   //  .react-tabs{
-   //    &__tab-list {
-   //       border-bottom: 0px !important;
- 
-   //     }
-   //  }
 
 
    .code{
@@ -94,9 +75,7 @@ h1{
             text-align: center;
             width: 120px;
             border-radius:40px;
-            background-color: #0e1218; 
-            background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-        
+
             border: 1.8px solid #00fff7cb;
             color:#00fff7f1;
             letter-spacing:1px;
@@ -122,13 +101,6 @@ h1{
    }
 }
 
-
- 
-
- 
-
-
-// node_module > codemirror > lib > codemirror.css > .CodeMirror{}
 
 
 
