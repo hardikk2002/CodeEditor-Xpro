@@ -8,8 +8,8 @@
 
 
 
- [Live Demo of Project](https://code-editor-xpro.vercel.app/) 
-[Demo Video](https://youtu.be/pO00gSfIXZ8)
+- [Live Demo of Project](https://code-editor-xpro.vercel.app/) 
+- [Demo Video](https://youtu.be/pO00gSfIXZ8)
 
 
 
