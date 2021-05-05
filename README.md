@@ -7,6 +7,12 @@
 ✖️pro is a new and customizable online Code Editor. It is a “playground for the front-end designers and developers". It is great for testing out bugs, making notes, and collaborating with others.
 
 
+
+- [Live Demo of Project](https://code-editor-xpro.vercel.app/) 
+- [Demo Video](https://youtu.be/pO00gSfIXZ8)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -37,8 +43,6 @@ npm start
 server = io.connect('localhost:4000')
 
 ``` 
-
- [LiveDemo](https://code-editor-xpro.vercel.app/) 
 
 
 
