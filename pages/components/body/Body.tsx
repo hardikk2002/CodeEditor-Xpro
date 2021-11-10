@@ -178,7 +178,7 @@ function Body() {
                 <iframe
                     srcDoc={srcDoc}
                     title="result"
-                    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+                    sandbox="allow-popups allow-scripts"
                     // for little security purpose, cookies
                     width="100%"
                     height="100%"
